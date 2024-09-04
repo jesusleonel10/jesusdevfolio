@@ -22,7 +22,7 @@ const projects = [
   // if there are no projects, Projects section won't show up
   {
     name: 'Screen Guide',
-    screenshot: 'src/assets/project1/screenshot.png',
+    screenshot: './../src/assets/project1/screenshot.png',
     description:
       'App Web para buscar información sobre películas y series de TV',
     stack: ['React', 'SASS', 'Material UI'],
@@ -31,7 +31,7 @@ const projects = [
   },
   {
     name: 'Todo App',
-    screenshot: 'src/assets/project2/screenshot.png',
+    screenshot: './../src/assets/project2/screenshot.png',
     description:
       'App para listas de tareas. Permite agregar, editar y borrar tareas.',
     stack: ['React', 'CSS Grid', 'Material UI'],
@@ -42,7 +42,7 @@ const projects = [
     name: 'App Calculadora',
     description:
       'App Calculadora con tres temas de color',
-    screenshot: 'src/assets/project3/screenshot.png',
+    screenshot: './../src/assets/project3/screenshot.png',
     stack: ['HTML', 'CSS Grid', 'JS'],
     sourceCode: 'https://github.com/jesusleonel10/Calculator-App',
     livePreview: 'https://calculator-app-eight-khaki.vercel.app/',
@@ -51,7 +51,7 @@ const projects = [
     name: 'E-commerce Product Page',
     description:
       'Pagina E-commerce con funcionalidad de carrito de compra.',
-    screenshot: 'src/assets/project4/screenshot.png',
+    screenshot: './../src/assets/project4/screenshot.png',
     stack: ['React', 'Styled Components', 'CSS Grid'],
     sourceCode: 'https://github.com/jesusleonel10/ecommerce-product-page',
     livePreview: 'https://ecommerce-product-page-ruby.vercel.app/',
@@ -60,7 +60,7 @@ const projects = [
     name: 'Landing Page App Bancaria',
     description:
       'Landing Page de App Bancaria. Totalmente responsiva',
-    screenshot: 'src/assets/project5/screenshot.png',
+    screenshot: './../src/assets/project5/screenshot.png',
     stack: ['HTML', 'CSS Grid', 'JS'],
     sourceCode: 'https://github.com/jesusleonel10/EasybankPage',
     livePreview: 'https://jesusleonel10.github.io/EasybankPage/',
@@ -69,7 +69,7 @@ const projects = [
     name: 'Generador de Contraseñas',
     description:
       'Generador de contraseñas seguras con varias niveles de seguridad.',
-    screenshot: 'src/assets/project6/screenshot.png',
+    screenshot: './../src/assets/project6/screenshot.png',
     stack: ['HTML', 'CSS', 'JS'],
     sourceCode: 'https://github.com/jesusleonel10/generador-passwords',
     livePreview: 'https://jesusleonel10.github.io/generador-passwords/',
