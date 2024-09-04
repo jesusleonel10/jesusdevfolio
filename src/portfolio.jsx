@@ -4,6 +4,7 @@ import ImgProyect3 from './assets/project3/screenshot.png'
 import ImgProyect4 from './assets/project4/screenshot.png'
 import ImgProyect5 from './assets/project5/screenshot.png'
 import ImgProyect6 from './assets/project6/screenshot.png'
+import LogoUniversity from './assets/UPTM_logo.png'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -97,7 +98,7 @@ const skills = [
 
 const education = {
   name: 'Universidad Politécnica Territorial de Mérida "Klébler Ramírez"',
-  logo: './src/assets/UPTM_logo.png',
+  logo: LogoUniversity,
   title: 'Ingeniería en Informática',
   date: 'Mérida -  Venezuela | Julio 2015 - Julio 2021',
   text: 'Especialidad en Tecnologías de Información y Comunicación via Web'
