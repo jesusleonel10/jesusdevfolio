@@ -106,7 +106,7 @@ const education = {
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'jesusleot10@gmail.com',
 }
 
 export { header, about, projects, skills, education, contact }
