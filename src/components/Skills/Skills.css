@@ -9,4 +9,10 @@
 
 .skills__list-item {
   margin: 0.5em;
+  width: 7rem;
+  text-align: center;
+}
+
+.skills__list-item i {
+  font-size: 4.2rem;
 }
