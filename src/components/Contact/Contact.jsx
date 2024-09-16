@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <section className='section contact' id='contact'>
       <h2 className='section__title'>Contacto</h2>
-      <form action="https://formsubmit.co/3cf15004bf69ff31e75ab0ca8283a9 b2" method="POST">
+      <form action="https://formsubmit.co/3cf15004bf69ff31e75ab0ca8283a9b2" method="POST">
         <div className="column">
           <label htmlFor="the-name">Nombre</label>
           <input type="text" name="nombre" id="the-name"  required="required"/>
