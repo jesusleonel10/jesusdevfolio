@@ -1,3 +1,75 @@
 .contact {
   flex-direction: column;
 }
+
+form {
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+}
+
+form:hover {
+  transform: translateY(-7px);
+
+}
+
+h1, p{
+  text-align: center;
+}
+label{
+  display:block;
+  margin:1em 0 .2em;
+}
+
+input, select, textarea{
+  display:block;
+  width:100%;
+  padding:.5em;
+  font-size: 1.24rem;
+  background-color:#fbfbfb;
+  border:solid 1px #CCC;
+  resize:vertical;
+}
+textarea{
+  min-height:180px;
+}
+
+input[type=checkbox]{
+  display:inline;
+  width:auto;
+  color:red;
+}
+
+input[type=submit]{
+  background: var(--clr-primary);;
+  margin:1em 0 0;
+  color:white;
+  border:none;
+  border-radius:8px;
+  transition:all .3s ease-out;
+}
+
+/* hover and focus states */
+input[type=submit]:hover,
+input[type=submit]:focus{
+  background: rgb(73, 158, 255);
+  outline:none;
+}
+
+@media screen and (min-width:600px) {
+  /*  make the form 2 columns */
+  form:after{
+    content:'';
+    display:block;
+    clear:both;
+  }
+  .column{
+    width:50%;
+    padding:1em;
+    float:left;
+  }
+}
+
+
+
+
