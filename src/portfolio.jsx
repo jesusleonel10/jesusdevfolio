@@ -74,13 +74,13 @@ const projects = [
     livePreview: 'https://jesusleonel10.github.io/EasybankPage/',
   },
   {
-    name: 'Generador de Contraseñas',
+    name: 'Movie Ticket App',
     description:
-      'Generador de contraseñas seguras con varias niveles de seguridad.',
+      'App Web simula la compra de entradas para el cine.',
     screenshot: ImgProyect6,
-    stack: ['HTML', 'CSS', 'JS'],
-    sourceCode: 'https://github.com/jesusleonel10/generador-passwords',
-    livePreview: 'https://jesusleonel10.github.io/generador-passwords/',
+    stack: ['React', 'CSS Grid'],
+    sourceCode: 'https://github.com/jesusleonel10/movie-ticket',
+    livePreview: 'https://movie-ticket-hazel.vercel.app/',
   },
 ]
 
